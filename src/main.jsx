@@ -11,36 +11,6 @@ const myRouter = createBrowserRouter([
   {
     path : '/',
     element : <App/>,
-    children : [
-      {
-        path : '/',
-        element : <Home/>
-      },
-      {
-        path : '/login',
-        element : <Login/>
-      },
-      {
-        path : '/add',
-        element : <NewPayment/>
-      },
-      {
-        path : '/transactions',
-        element : <TransactionsList/>
-      },
-      {
-        path : '/signup',
-        element : <Signup/>
-      }, 
-      {
-        path : '/contact',
-        element : <Contact/>
-      }
-    ]
-  },
-  {
-    path : '/',
-    element : <Home/>
   },
   {
     path : '/login',
