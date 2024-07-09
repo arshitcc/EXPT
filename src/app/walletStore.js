@@ -5,6 +5,5 @@ import paymentSlice from "../features/paymentSlice";
 export const myStore = configureStore({
     reducer : {
         auth : authSlice,
-        payment : paymentSlice,
     }
 })
